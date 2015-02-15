@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/narrow.css">
-    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/narrow.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/site.css">
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,13 +22,13 @@
      <div class="header">
       <nav>
         <ul class="nav nav-pills pull-right">
-          <li role="presentation"><a href="{{site.url}}/#section-4">О нас</a></li>
-          <li role="presentation"><a href="{{site.url}}/#section-7">Как нам помочь</a></li>
+          <li role="presentation"><a href="{{site.baseurl}}/#section-4">О нас</a></li>
+          <li role="presentation"><a href="{{site.baseurl}}/#section-7">Как нам помочь</a></li>
         </ul>
       </nav>
       <div class="logo">
-        <a href="{{ site.url }}/">
-          <img src="{{ site.url }}/assets/images/logo.png">
+        <a href="{{site.baseurl}}/">
+          <img src="{{site.baseurl}}/assets/images/logo.png">
           <div class="name">Контакт</div>
           <div class="subtitle">Организация помощи детям-аутистам</div>
         </a>
