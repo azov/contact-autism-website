@@ -1,0 +1,45 @@
+p {
+	margin-left: 25px;
+}
+
+.logo {
+	height: 50px; 
+	padding-bottom: 20px; 
+	margin-bottom: 30px; 
+	border-bottom: solid #cccccc 0px;
+}
+.logo a {
+	color: #aaaaaa;
+	text-decoration: none;
+}
+.logo img {
+	float: left; 
+	margin-right: 25px;
+	height: 60px;
+}
+.logo .name {
+	font-size: 25px; 
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 5px; 
+}
+.logo .subtitle {
+	margin: 0px; 
+	padding: 0px; 
+	font-size:12px; 
+	text-transform: lowercase;
+	white-space: nowrap;
+}
+footer {
+	margin-top: 50px;
+	padding-top: 10px;
+	color: #999999;
+	font-size: 85%;
+	border-top: solid #cccccc 1px;
+}
+
+.carousel-caption {
+	text-align: left;
+	left: 20px;
+	right: 50%;
+}
